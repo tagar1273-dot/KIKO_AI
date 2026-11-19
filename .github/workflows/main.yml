@@ -29,7 +29,7 @@ jobs:
           java-version: '17'
 
       - name: Set up Android SDK
-      with
+      with:
       accept-sdk-lincenses: true
         uses: android-actions/setup-android@v3
 
