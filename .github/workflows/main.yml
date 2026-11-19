@@ -30,7 +30,7 @@ jobs:
 
       - name: Set up Android SDK
       with:
-      accept-sdk-lincenses: true
+             accept-sdk-lincenses: true
         uses: android-actions/setup-android@v3
 
       - name: Install Android SDK platform and build tools
